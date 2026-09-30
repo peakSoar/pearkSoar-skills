@@ -1,8 +1,18 @@
+<div align="center">
+
 # 🧰 pearkSoar Skills
 
-我正在使用的一组 Codex Skills，放在一个仓库里持续维护。
+### 我自己每天在用的一些 AI Skill，都开源在这里
 
-每个 Skill 都是可以单独安装的结构化指令集，适合用于 Codex 等支持 Agent Skills 的工具。
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Skills](https://img.shields.io/badge/Skills-2-20c997.svg)](#-技能目录)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Standard-7c3aed.svg)](https://agentskills.io/)
+[![Codex](https://img.shields.io/badge/Codex-Compatible-1769c2.svg)](#-技能目录)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Compatible-d97706.svg)](#-技能目录)
+
+</div>
+
+这里的每个 Skill 都是可以单独安装的结构化指令集，适合用于 Codex、Claude Code 以及其他支持 Agent Skills 标准的工具。
 
 ## 📋 技能目录
 
@@ -32,7 +42,14 @@
 
 ## 🛠️ 开发说明
 
-本仓库脚本使用 Python 3 标准库，不需要安装第三方依赖。运行脚本前，先按 [storage-analyzer 的解释器检查规则](storage-analyzer/SKILL.md#python-解释器检查)获取可用 Python 路径。
+本仓库脚本使用 Python 3 标准库，不需要第三方依赖。运行脚本前，先检查可用解释器：
+
+```text
+python -c "import sys; print(sys.executable)"
+python3 -c "import sys; print(sys.executable)"
+```
+
+使用第一条成功返回的解释器路径运行后续脚本。
 
 ## 📄 许可证
 
