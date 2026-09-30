@@ -61,11 +61,11 @@ C 盘满了
 storage analysis
 ```
 
-→  [SKILL.md](https://github.com/peakSoar/pearkSoar-skills/blob/master/storage-analyzer/SKILL.md) 
+→  [SKILL.md](https://github.com/peakSoar/pearkSoar-skills/blob/main/storage-analyzer/SKILL.md)
 
 ### evidence-driven（证据驱动开发）
 
-给长期 AI 协作开发使用的工程 Harness。它会把任务拆成可恢复的阶段，记录每个阶段的状态、owner、验证证据和验收结果，方便跨会话继续工作，也方便审计 AI 是否真正完成了要求。
+给长期 AI 协作开发使用的工程 Harness。它会把任务拆成可恢复的阶段，记录每个阶段的状态、owner、验证证据和验收结果，方便跨会话继续工作，也方便审计 AI 是否真正完成了要求
 
 **它能做什么**
 
@@ -83,8 +83,10 @@ $evidence-driven
 检查这个项目的阶段状态和验证证据
 ```
 
-→  [README.md](https://github.com/peakSoar/pearkSoar-skills/blob/master/evidence-driven/README.md)
+→  [README.md](https://github.com/peakSoar/pearkSoar-skills/blob/main/evidence-driven/README.md)
 
-[MIT License](https://github.com/KKKKhazix/khazix-skills/blob/main/LICENSE) · 自由使用 / 修改 / 再分发
+
+
+[MIT License](LICENSE) · 自由使用 / 修改 / 再分发
 
 Made by [@pearSoar](https://github.com/peakSoar)
