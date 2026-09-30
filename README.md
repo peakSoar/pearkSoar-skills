@@ -13,4 +13,4 @@
 
 ## 许可证
 
-本仓库采用 [MIT License](LICENSE)。`evidence-driven` 目录同时保留其原有的 MIT 许可证文件。
+本仓库统一采用根目录的 [MIT License](LICENSE)。
