@@ -1,46 +1,39 @@
-# pearkSoar Skills
+# 🧰 pearkSoar Skills
 
-面向 Codex 的个人技能集合，集中维护可复用的本地工作流。
+我正在使用的一组 Codex Skills，放在一个仓库里持续维护。
 
-## 技能
+每个 Skill 都是可以单独安装的结构化指令集，适合用于 Codex 等支持 Agent Skills 的工具。
 
-### storage-analyzer
+## 📋 技能目录
 
-macOS / Windows 只读存储分析助手。它会扫描磁盘占用，按可清理程度分级，并生成可折叠的 HTML 报告。
+| 技能 | 用途 | 入口 |
+| --- | --- | --- |
+| 💽 [storage-analyzer](storage-analyzer/) | 分析 macOS / Windows 磁盘占用，生成可折叠的 HTML 报告 | [查看 SKILL.md](storage-analyzer/SKILL.md) |
+| 🔭 [evidence-driven](evidence-driven/) | 管理长期 AI 协作中的阶段、证据、验证和跨会话接力 | [查看 README](evidence-driven/README.md) |
 
-支持：
+## 📦 安装
 
-- 多盘符和用户目录分析；
-- 缓存、开发工具、项目文件和虚拟机镜像识别；
-- 绿色、黄色、红色三级处置建议；
-- 使用 Python 3 标准库，无需第三方依赖。
-
-### evidence-driven
-
-证据驱动工程 Harness，用于长期 AI 协作开发、阶段状态管理、验证记录和跨会话接力。
-
-## 安装
-
-将需要的技能目录复制到用户级或仓库级 `.agents/skills/` 目录：
+把需要的技能目录复制到用户级或仓库级 `.agents/skills/` 目录：
 
 ```text
 <target>/.agents/skills/storage-analyzer/
 <target>/.agents/skills/evidence-driven/
 ```
 
-安装后，在 Codex 中使用对应技能名称调用。
+安装后，在 Codex 中使用对应的技能名称调用。
 
-## 开发
+## 🔗 快速跳转
 
-本仓库中的脚本只使用 Python 3 标准库。运行脚本前，先检查可用解释器：
+- [storage-analyzer 技能目录](storage-analyzer/)
+- [storage-analyzer 使用说明](storage-analyzer/SKILL.md)
+- [evidence-driven 项目目录](evidence-driven/)
+- [evidence-driven 项目说明](evidence-driven/README.md)
+- [根目录 MIT License](LICENSE)
 
-```text
-python -c "import sys; print(sys.executable)"
-python3 -c "import sys; print(sys.executable)"
-```
+## 🛠️ 开发说明
 
-使用第一条成功返回的解释器路径运行后续脚本。
+本仓库脚本使用 Python 3 标准库，不需要安装第三方依赖。运行脚本前，先按 [storage-analyzer 的解释器检查规则](storage-analyzer/SKILL.md#python-解释器检查)获取可用 Python 路径。
 
-## 许可证
+## 📄 许可证
 
 本仓库统一采用根目录的 [MIT License](LICENSE)。
