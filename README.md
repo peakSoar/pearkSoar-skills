@@ -5,6 +5,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Skills](https://img.shields.io/badge/Skills-2-20c997.svg)](#-技能目录)
 
+</div>
+
 这里的每个 Skill 都是 Agent 能直接加载的结构化指令集，遵循 [Agent Skills](https://agentskills.io/) 开放标准。Claude Code、Codex、Qoder、ZCode、CodeBuddy、Cursor 等支持该标准的 Agent 都能装。
 
 ## 📋 目录
